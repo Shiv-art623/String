@@ -10,6 +10,25 @@ int main(){
         st++;
         end--;
     }
-    cout<<s;
+    cout<<s<<endl;;
+
+    //find a size of a string without .size() function
+    int size = 0;
+    while(s[size]!= '\0'){
+        size++;
+    }
+    cout<<size;
+
+    //Check for Palindrome
+    int start = 0, en = s.size()-1;
+    while(start<en){
+        if(s[start]!= s[en]) {
+        cout<<"Not a palindrome"<<endl;
+        return 0;
+        }
+        start++;
+        en--;
+    }
+    cout<<"A palindrome";
     return 0;
 }
