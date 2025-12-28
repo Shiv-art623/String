@@ -18,3 +18,5 @@ int main(){
     cout<<isPangram(s);
     return 0;
 }
+//TC = O(N)+O(26) approx = O(N)
+//SC = O(26) approx = O(1)
