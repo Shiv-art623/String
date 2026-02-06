@@ -28,4 +28,4 @@ int main(){
     cout<<smallestWindow(s);
     return 0;
 }
-//TC = o(n)
+//TC = o(n^3)
