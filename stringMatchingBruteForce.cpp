@@ -3,9 +3,9 @@ using namespace std;
 
 int StringMatch( string s1, string s2){
     int n = s1.size(), m = s2.size();
-    for(int i =0; i<n; i++){
+    for(int i =0; i<=n-m; i++){
         int first = i, second = 0;
-        while(second<=n-m){
+        while(second<m){
             if(s1[first]!= s2[second]){
                 break;
             }
